@@ -5,4 +5,4 @@
 hostname = %APPEND% bdcore-apr-lb.bda.ndmdhs.com
 
 [Script]
-sony = type = http-request, script-path = Scripts/sony.js, script-update-interval = 1, requires-body = true, max-size = 0, pattern = ^https:\/\/[a-z0-9-]+\.bda\.ndmdhs\.com\/[a-zA-Z0-9-]+$
+sony = type = http-request, script-path = scripts/sony.js, script-update-interval = 1, requires-body = true, max-size = 0, pattern = ^https:\/\/[a-z0-9-]+\.bda\.ndmdhs\.com\/[a-zA-Z0-9-]+$

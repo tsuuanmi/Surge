@@ -5,4 +5,4 @@
 hostname = %APPEND% stepup.edu.vn
 
 [Script]
-TheCoach = type = http-response, script-path = Scripts/chess.js, script-update-interval = 1, requires-body = true, max-size = 0, pattern = ^https:\/\/api\.chess\.com\/v1\/membership\/apple\/info\?signed=iOS[\d.]+-[a-z\d]+$
+TheCoach = type = http-response, script-path = scripts/chess.js, script-update-interval = 1, requires-body = true, max-size = 0, pattern = ^https:\/\/api\.chess\.com\/v1\/membership\/apple\/info\?signed=iOS[\d.]+-[a-z\d]+$

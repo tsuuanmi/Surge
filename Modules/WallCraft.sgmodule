@@ -5,4 +5,4 @@
 hostname = %APPEND% billing-ios.wallpaperscraft.com
 
 [Script]
-Wallcraft = type = http-response, script-path=Scripts/wallcraft.js, script-update-interval = -1, requires-body = true, max-size = 0, pattern = ^https:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$
+Wallcraft = type = http-response, script-path=scripts/wallcraft.js, script-update-interval = -1, requires-body = true, max-size = 0, pattern = ^https:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$

@@ -5,5 +5,5 @@
 hostname = %APPEND% pool.elsanow.io
 
 [Script]
-ELSA-request = type = http-request, script-path = https://raw.githubusercontent.com/TranNhatTan14/Surge/main/Scripts/elsa-request.js, script-update-interval = 1, pattern = ^https:\/\/pool\.elsanow\.io\/content\/api\/.+\/modules\/download$
-ELSA-response = type = http-response, script-path = https://raw.githubusercontent.com/TranNhatTan14/Surge/main/Scripts/elsa-response.js, script-update-interval = 1, requires-body = true, max-size = 0, pattern = ^https:\/\/pool\.elsanow\.io\/user\/api\/.+\/purchase$
+ELSA-request = type = http-request, script-path = https://raw.githubusercontent.com/TranNhatTan14/Surge/main/scripts/elsa-request.js, script-update-interval = 1, pattern = ^https:\/\/pool\.elsanow\.io\/content\/api\/.+\/modules\/download$
+ELSA-response = type = http-response, script-path = https://raw.githubusercontent.com/TranNhatTan14/Surge/main/scripts/elsa-response.js, script-update-interval = 1, requires-body = true, max-size = 0, pattern = ^https:\/\/pool\.elsanow\.io\/user\/api\/.+\/purchase$
