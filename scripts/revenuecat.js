@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    const PURCHASE_DATE = "2025-07-04T00:00:00Z";
+    const PURCHASE_DATE = "2025-04-01T00:00:00Z";
     const EXPIRES_DATE = "2099-12-31T23:59:59Z";
     const ENTITLEMENT_ID = "Gold";
     const PRODUCT_ID = "locket.premium.yearly";
